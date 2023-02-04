@@ -10,10 +10,10 @@ You may assume that each input would have exactly one solution, and you may not 
 
 <h4>Example:</h4>
 
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+<strong>Input:</strong> nums = [2,7,11,15], target = 9 <br>
+<strong>Output:</strong> [0,1] <br>
+<strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
 
-  <h3>Solution</h3>
+<h3>Solution</h3>
 
-<p>The solution uses a hash map to store each element and its index as key-value pairs. For each iteration, it calculates the complement of the current element to the target, which is `target - nums[i]`. If the complement exists in the hash map, the solution returns the indeces of the two elements that add up to the target. If not, the solution adds the current element and its index to the hash map.</p>
+<p>The solution uses a hash map to store each element and its index as key-value pairs. For each iteration, it calculates the complement of the current element to the target, which is `<strong>target - nums[i]</strong>`. If the complement exists in the hash map, the solution returns the indeces of the two elements that add up to the target. If not, the solution adds the current element and its index to the hash map.</p>
