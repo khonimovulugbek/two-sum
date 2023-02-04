@@ -1,4 +1,4 @@
-Two Sum
+<h2>Two Sum</h2>
 
 A solution for the Two Sum problem on LeetCode using Java and Kotlin.
 
